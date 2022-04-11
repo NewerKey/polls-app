@@ -31,3 +31,21 @@ npm -v
 npm install express
 
 ```
+
+- parser for incoming request bodies in middleware
+
+```
+npm install body-parser
+
+```
+
+- run server in development mode (automatically restart server)
+
+```
+npm install --save-dev nodemon
+```
+
+```
+npm run dev
+
+```

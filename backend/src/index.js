@@ -1,7 +1,11 @@
 const Express = require("express");
 
+const setupMiddleware = require("./setup/middleware");
+
 //Create express instance
 const app = Express();
+
+setupMiddleware(app);
 
 // Start server
 app.listen(4000, () => {
