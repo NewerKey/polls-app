@@ -11,6 +11,8 @@ An app that lets you create a poll to share with others.
 
 ### Backend
 
+Creating the Backend API
+
 ```
 npm init -y
 
@@ -56,3 +58,13 @@ npm run dev
 ```
 npm install mongodb
 ```
+
+- Validate data
+
+```
+npm i indicative
+```
+
+#### Testing Backend API
+
+Using Postman or Insomnia
