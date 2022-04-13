@@ -1,5 +1,7 @@
 const Express = require('express');
 
+const setupRouter = require('./setup/router');
+
 const setupMiddleware = require('./setup/middleware');
 
 const setupDatabase = require('./setup/database');
@@ -8,6 +10,9 @@ const setupDatabase = require('./setup/database');
 const app = Express();
 
 setupMiddleware(app);
+
+setupRouter(app);
+
 setupDatabase()
   .then((client) => {
     app.listen(4000, () => {
