@@ -49,3 +49,10 @@ npm install --save-dev nodemon
 npm run dev
 
 ```
+
+- Setup Database connection
+  [Mongodb](https://www.mongodb.com/)
+
+```
+npm install mongodb
+```
