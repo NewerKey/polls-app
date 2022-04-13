@@ -11,10 +11,9 @@ const app = Express();
 
 setupMiddleware(app);
 
-setupRouter(app);
-
 setupDatabase()
   .then((client) => {
+    setupRouter(app, client);
     app.listen(4000, () => {
       console.log('Server started on port 4000');
     });
