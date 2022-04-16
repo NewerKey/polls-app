@@ -27,6 +27,7 @@ export default function ViewPoll({ match }) {
 
   useEffect(() => {
     fetchPoll();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [voted]);
 
   useEffect(() => {
@@ -71,7 +72,7 @@ export default function ViewPoll({ match }) {
   return (
     <div className="container mx-auto mt-16 px-5">
       <h1 className="my-5 text-3xl text-center">
-        Welcome to Polar Voting Platform
+        Welcome to PollsApp Platform
       </h1>
 
       {poll ? (
