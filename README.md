@@ -77,6 +77,13 @@ npm install uuid
 npm install redis
 ```
 
+- Fix domain/browser call connect/requests issues - middleware
+
+```
+npm install cors
+
+```
+
 #### Testing Backend API
 
 Using Postman or Insomnia
