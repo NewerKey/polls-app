@@ -33,12 +33,7 @@ Starts the test runner.
 npm test
 ```
 
-- tailwind css
-
-```
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
+- tailwind css via cdn
 
 ### Backend
 
