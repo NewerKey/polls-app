@@ -6,7 +6,33 @@ An app that lets you create a poll to share with others.
 
 ### Frontend
 
+#### Setup
+
 - react
+
+```
+npx create-react-app  frontend
+```
+
+Starts the development server
+
+```
+npm start
+```
+
+Bundles the app into static files for production.
+
+```
+npm run build
+
+```
+
+Starts the test runner.
+
+```
+npm test
+```
+
 - tailwind css
 
 ### Backend
