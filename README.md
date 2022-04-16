@@ -59,7 +59,7 @@ npm run dev
 npm install mongodb
 ```
 
-- Validate data
+- Validate data [Indicative] (https://indicative.adonisjs.com/guides/master/introduction)
 
 ```
 npm i indicative
