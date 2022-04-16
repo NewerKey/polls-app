@@ -71,6 +71,12 @@ npm i indicative
 npm install uuid
 ```
 
+- IP address check using redis database
+
+```
+npm install redis
+```
+
 #### Testing Backend API
 
 Using Postman or Insomnia
